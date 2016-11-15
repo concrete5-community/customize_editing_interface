@@ -1,0 +1,519 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: customize_editing_interface 0.9.2\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-04-15T09:50:36+02:00\n"
+"PO-Revision-Date: 2016-04-15T09:50:37+02:00\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/customize_editing_interface/controller.php:31
+msgid "Customize the concrete5 editing interface."
+msgstr "Personalizza l’interfaccia di modifica di concrete5."
+
+#: packages/customize_editing_interface/controller.php:36
+msgid "Customize Editing Interface"
+msgstr "Personalizza interfaccia di modifica"
+
+#: packages/customize_editing_interface/controllers/single_page/dashboard/system/basics/customize_editing_interface/import_settings.php:52
+msgid "Settings Imported"
+msgstr "Impostazioni importate"
+
+#: packages/customize_editing_interface/controllers/single_page/dashboard/system/basics/customize_editing_interface/import_settings.php:74
+msgid "You do not have permission to add files to the file manager."
+msgstr "Non si ha l’autorizzazione di aggiungere file al gestore dei file."
+
+#: packages/customize_editing_interface/controllers/single_page/dashboard/system/basics/customize_editing_interface/import_settings.php:140
+msgid "Error: the file has more than 2 lines"
+msgstr "Errore: il file ha più di due linee"
+
+#: packages/customize_editing_interface/controllers/single_page/dashboard/system/basics/customize_editing_interface/import_settings.php:145
+msgid "Error: the header and row column count must be the same"
+msgstr ""
+"Errore: il numero di colonne dell’intestazione e della riga deve essere uguale"
+
+#: packages/customize_editing_interface/controllers/single_page/dashboard/system/basics/customize_editing_interface/import_settings.php:157
+msgid "Error: the settings file must be a .csv file"
+msgstr "Errore: il file delle impostazioni deve essere un file .csv"
+
+#: packages/customize_editing_interface/controllers/single_page/dashboard/system/basics/customize_editing_interface.php:94
+msgid "Settings Saved"
+msgstr "Impostazioni salvate"
+
+#: packages/customize_editing_interface/controllers/single_page/dashboard/system/basics/customize_editing_interface.php:172
+msgid "Settings Reset"
+msgstr "Impostazioni azzerate"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/export_settings.php:42
+msgid "Export Settings"
+msgstr "Esporta impostazioni"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/export_settings.php:47
+msgid "A copy of the current settings will be exported as a downloadable .csv file. This file can be imported to restore settings at a later time."
+msgstr ""
+"Una copia delle attuali impostazioni verrà esportata in un file .csv "
+"scaricabile. Questo file può essere importato per ripristinare le "
+"impostazioni in un secondo momento."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/export_settings.php:54
+msgid "Click this button to export your settings."
+msgstr "Fare clic su questo pulsante per esportare le impostazioni."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/import_settings.php:61
+msgid "Upload Settings File"
+msgstr "Carica file impostazioni"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/import_settings.php:66
+msgid "Upload"
+msgstr "Carica"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/import_settings.php:72
+msgid "Restore exported settings by uploading the settings file that was created by this add-on. The exported settings file will have a filename of customize_editing_interface_settings_MM-DD-YYYY.csv."
+msgstr ""
+"Ripristina le impostazioni esportate caricando il file delle impostazioni che "
+"è stato creato da questo componente aggiuntivo. Il file delle impostazioni "
+"esportate ha il nome in formato customize_editing_interface_settings_MM-GG-AAA"
+"A.csv."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/import_settings.php:79
+msgid "Select your settings file."
+msgstr "Seleziona il file delle impostazioni."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface/import_settings.php:87
+msgid "Click the upload button to import the file."
+msgstr "Fare clic sul pulsante Carica per importare il file."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:151
+msgid "Reset to Add-On Default Settings"
+msgstr "Azzera le impostazioni del componente aggiuntivo ai valori predefiniti"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:172
+msgid "Custom Settings"
+msgstr "Impostazioni personalizzate"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:176
+msgid "Enabled"
+msgstr "Abilitato"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:179
+msgid "Disabled"
+msgstr "Disabilitata"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:188
+msgid "Basic Options"
+msgstr "Opzioni di base"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:189
+msgid "Outline Styles and Colors"
+msgstr "Stili contorni e colori"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:190
+msgid "Background Colors"
+msgstr "Colori di sfondo"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:200
+msgid "Presets"
+msgstr "Combinazioni"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:201
+msgid "No Preset"
+msgstr "Nessuna combinazione"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:201
+msgid "5.7 Enhanced"
+msgstr "5.7 Intensificato"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:201
+msgid "5.6 Retro"
+msgstr "5.6 Retro"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:207
+msgid "Add Content Block Icons Per Row"
+msgstr "Icone per riga dei blocchi da aggiungere"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:211
+msgid "1"
+msgstr "1"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:214
+msgid "2"
+msgstr "2"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:217
+msgid "3"
+msgstr "3"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:220
+msgid "4"
+msgstr "4"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:229
+msgid "Always show area names while in edit mode"
+msgstr "Mostra sempre i nomi delle aree in modalità di modifica"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:235
+msgid "Always show block outlines while in edit mode"
+msgstr "Mostra sempre i contorni dei blocchi in modalità di modifica"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:241
+msgid "Always show area outlines while in edit mode"
+msgstr "Mostra sempre i contorni delle aree in modalità di modifica"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:247
+msgid "Show block and empty area background hover color"
+msgstr ""
+"Cambia il colore di sfondo di blocchi e aree vuote al passaggio del mouse"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:253
+msgid "WCAG 2.0 compliant color contrast"
+msgstr "Contrasto di colore conforme a WCAG 2.0"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:267
+msgid "Block Outline Style"
+msgstr "Stile contorno dei blocchi"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:271
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:288
+msgid "Dashed"
+msgstr "Tratteggiato"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:274
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:291
+msgid "Dotted"
+msgstr "Punteggiato"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:277
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:294
+msgid "Solid"
+msgstr "Continuo"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:284
+msgid "Area Outline Style"
+msgstr "Stile contorno delle aree"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:301
+msgid "Block Outline Width"
+msgstr "Larghezza contorno dei blocchi"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:305
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:325
+msgid "1px"
+msgstr "1px"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:308
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:328
+msgid "2px"
+msgstr "2px"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:311
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:331
+msgid "3px"
+msgstr "3px"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:314
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:334
+msgid "4px"
+msgstr "4px"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:321
+msgid "Area Outline Width"
+msgstr "Larghezza contorno delle aree"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:346
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:540
+msgid "Area Blocks"
+msgstr "Blocchi nelle aree"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:352
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:383
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:414
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:445
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:476
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:507
+msgid "Outline Color"
+msgstr "Colore del contorno"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:362
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:393
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:486
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:517
+msgid "Outline Hover and Selected Color"
+msgstr "Colore del contorno al passaggio del mouse e selezionato"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:377
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:571
+msgid "Global Area Blocks"
+msgstr "Blocchi nelle aree globali"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:408
+msgid "Areas"
+msgstr "Aree"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:424
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:455
+msgid "Drag Indicator Color"
+msgstr "Colore dell’indicatore di trascinamento"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:439
+msgid "Global Areas"
+msgstr "Aree globali"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:470
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:602
+msgid "Empty Areas"
+msgstr "Aree vuote"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:501
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:633
+msgid "Empty Global Areas"
+msgstr "Aree globali vuote"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:546
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:577
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:608
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:639
+msgid "Background Hover Color"
+msgstr "Colore di sfondo al passaggio del mouse"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:556
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:587
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:618
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:649
+msgid "Selected Background Color"
+msgstr "Colore di sfondo se selezionato"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:669
+msgid "Save"
+msgstr "Salva"
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:714
+msgid "This add-on is disabled by default, so the first thing you need to do is click this button to enable it."
+msgstr ""
+"Questo componente aggiuntivo è disattivato come impostazione predefinita, "
+"quindi la prima cosa da fare è fare clic su questo pulsante per attivarlo."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:732
+msgid "The quickest way to get started is using a preset. 5.7 Enhanced makes a few changes to text contrast, outlines, hover backgrounds, and block icon rows. 5.6 Retro offers a look similar to concrete5 version 5.6. Using a preset will disable other settings."
+msgstr ""
+"Il modo più veloce per iniziare è utilizzare una combinazione predefinita. "
+"5.7 Intensificato apporta alcuni cambiamenti al contrasto del testo, ai "
+"contorni, agli sfondi al passaggio del mouse e alle righe delle icone dei "
+"blocchi. 5.6 Retro offre un aspetto simile alla versione 5.6 di concrete5. Se "
+"si seleziona una combinazione predefinita le altre impostazioni verranno "
+"disattivate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:740
+msgid "This sets the number of horizontal block icons per row in the Add Content Blocks panel. The default is 2."
+msgstr ""
+"Questo imposta il numero di icone orizzontali per riga nel pannello Aggiungi "
+"blocchi di contenuto. Il valore predefinito è 2."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:748
+msgid "This will always show area name tabs while in edit mode. For best results, use with \"Always show area outlines while in edit mode\". The tabs will always be on top of everything else on the page."
+msgstr ""
+"Questo mostrerà sempre le schede con i nomi delle aree in modalità di "
+"modifica. Per risultati ottimali, sarebbe da utilizzare unitamente a “Mostra "
+"sempre i contorni delle aree in modalità di modifica”. Le schede saranno "
+"sempre davanti al resto dei contenuti della pagina."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:756
+msgid "This will always show block outlines while in edit mode, even when blocks aren\\'t hovered."
+msgstr ""
+"Questo mostrerà sempre contorni dei blocchi in modalità di modifica, anche "
+"quando non si passa col mouse sopra i blocchi."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:764
+msgid "This will always show area outlines while in edit mode, even when blocks and areas aren\\'t hovered."
+msgstr ""
+"Questo mostrerà sempre contorni delle aree in modalità di modifica, anche "
+"quando non si passa col mouse sopra le aree."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:772
+msgid "This will give blocks and empty areas a background color when they are hovered."
+msgstr ""
+"Questo assegnerà ai blocchi e alle aree vuote un colore di sfondo quando vi "
+"si passa sopra col mouse."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:780
+msgid "WCAG 2.0 compliant color contrast makes text and icons easier to read for people with visual impairments or if you are using a low contrast device."
+msgstr ""
+"Il contrasto di colore conforme a WCAG 2.0 rende più leggibili il testo e le "
+"icone, utile per le persone con disabilità visive o se si utilizza un "
+"dispositivo con un contrasto basso."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:790
+msgid "Click on this tab to explore the outline style and color options."
+msgstr ""
+"Fare clic su questa scheda per esplorare le opzioni sugli stili e i colori "
+"dei contorni."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:798
+msgid "Choose between dashed, dotted, and solid for the block outlines style. The default style is solid."
+msgstr ""
+"Selezionare tra tratteggiato, punteggiato e continuo per lo stile dei "
+"contorni dei blocchi. Lo stile predefinito è continuo."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:806
+msgid "Choose between dashed, dotted, and solid for the area outlines style. The default style is solid."
+msgstr ""
+"Selezionare tra tratteggiato, punteggiato e continuo per lo stile dei "
+"contorni delle aree. Lo stile predefinito è continuo."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:814
+msgid "Choose the outline width of block outlines. The default width is 1px."
+msgstr ""
+"Selezionare la larghezza dei contorni dei blocchi. La larghezza predefinita è "
+"di 1px."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:822
+msgid "Choose the outline width of area outlines. The default width is 1px."
+msgstr ""
+"Selezionare la larghezza dei contorni delle aree. La larghezza predefinita è "
+"di 1px."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:830
+msgid "This is the color of area block outlines when \"Always show block outlines while in edit mode\" is checked."
+msgstr ""
+"Questo è il colore dei contorni delle aree dei blocchi quando l’opzione "
+"“Mostra sempre i contorni dei blocchi in modalità di modifica” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:838
+msgid "This is the hover and selected color of area block outlines."
+msgstr ""
+"Questo è il colore dei contorni delle aree dei blocchi al passaggio del mouse "
+"o quando selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:846
+msgid "This is the color of global area block outlines when \"Always show block outlines while in edit mode\" is checked."
+msgstr ""
+"Questo è il colore dei contorni delle aree globali quando l’opzione “Mostra "
+"sempre i contorni dei blocchi in modalità di modifica” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:854
+msgid "This is the hover and selected color of global area block outlines."
+msgstr ""
+"Questo è il colore dei contorni delle aree globali dei blocchi al passaggio "
+"del mouse o quando selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:862
+msgid "This is the color of area outlines when \"Always show area outlines while in edit mode\" is checked."
+msgstr ""
+"Questo è il colore dei contorni delle aree quando l’opzione “Mostra sempre i "
+"contorni delle aree in modalità di modifica” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:870
+msgid "This is the drag indicator color for areas. The drag indicators show where blocks can be added."
+msgstr ""
+"Questo è il colore dell’indicatore di trascinamento delle aree. Questi "
+"indicatori indicano dove è possibile aggiungere i blocchi."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:878
+msgid "This is the color of global area outlines when \"Always show area outlines while in edit mode\" is checked."
+msgstr ""
+"Questo è il colore dei contorni delle aree globali quando l’opzione “Mostra "
+"sempre i contorni delle aree in modalità di modifica” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:886
+msgid "This is the drag indicator color for global areas. The drag indicators show where blocks can be added."
+msgstr ""
+"Questo è il colore dell’indicatore di trascinamento delle aree globali. "
+"Questi indicatori indicano dove è possibile aggiungere i blocchi."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:894
+msgid "This is the color of empty area outlines when \"Always show area outlines while in edit mode\" is checked."
+msgstr ""
+"Questo è il colore dei contorni delle aree vuote quando l’opzione “Mostra "
+"sempre i contorni delle aree in modalità di modifica” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:902
+msgid "This is the hover and selected color of empty area outlines."
+msgstr ""
+"Questo è il colore dei contorni delle aree vuote quando vi si passa sopra col "
+"mouse o quando sono selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:910
+msgid "This is the color of empty global area outlines when \"Always show area outlines while in edit mode\" is checked."
+msgstr ""
+"Questo è il colore dei contorni delle aree globali vuote quando l’opzione "
+"“Mostra sempre i contorni delle aree in modalità di modifica” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:918
+msgid "This is the hover and selected color of empty global area outlines."
+msgstr ""
+"Questo è il colore dei contorni delle aree globali vuote quando vi si passa "
+"sopra col mouse o quando sono selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:926
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:1008
+msgid "The next step requires scrolling to the top of the page."
+msgstr "Il passo successivo richiede di scorrere in cima alla pagina."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:936
+msgid "Click on this tab to explore the background color options."
+msgstr ""
+"Fare clic su questa scheda per esplorare le opzioni relative al colore degli "
+"sfondi."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:944
+msgid "This is the background hover color of area blocks when \"Show block and empty area background hover color\" is checked."
+msgstr ""
+"Questo è il colore dello sfondo delle aree dei blocchi al passaggio del mouse "
+"quando l’opzione “Cambia il colore di sfondo di blocchi e aree vuote al "
+"passaggio del mouse” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:952
+msgid "This is the selected background color of area blocks."
+msgstr "Questo è il colore di sfondo delle aree dei blocchi selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:960
+msgid "This is the background hover color of global area blocks when \"Show block and empty area background hover color\" is checked."
+msgstr ""
+"Questo è il colore di sfondo al passaggio del mouse delle aree globali quando "
+"l’opzione “Cambia il colore di sfondo di blocchi e aree vuote al passaggio "
+"del mouse” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:968
+msgid "This is the selected background color of global area blocks."
+msgstr ""
+"Questo è il colore di sfondo delle aree globali dei blocchi selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:976
+msgid "This is the background hover color of empty areas when \"Show block and empty area background hover color\" is checked."
+msgstr ""
+"Questo è il colore di sfondo al passaggio del mouse delle aree vuote quando "
+"l’opzione “Cambia il colore di sfondo di blocchi e aree vuote al passaggio "
+"del mouse” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:984
+msgid "This is the selected background color of empty areas."
+msgstr "Questo è il colore di sfondo delle aree dei blocchi vuote selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:992
+msgid "This is the background hover color of empty global areas when \"Show block and empty area background hover color\" is checked."
+msgstr ""
+"Questo è il colore di sfondo al passaggio del mouse delle aree globali vuote "
+"quando l’opzione “Cambia il colore di sfondo di blocchi e aree vuote al "
+"passaggio del mouse” è selezionata."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:1000
+msgid "This is the selected background color of empty global areas."
+msgstr ""
+"Questo è il colore di sfondo delle aree globali dei blocchi vuote selezionate."
+
+#: packages/customize_editing_interface/single_pages/dashboard/system/basics/customize_editing_interface.php:1016
+msgid "This button will reset all the settings to their add-on defaults. The only thing it will not reset is whether the add-on is enabled or disabled."
+msgstr ""
+"Questo pulsante azzererà tutte le impostazioni ai valori predefiniti del "
+"componente aggiuntivo. L’unica impostazione che non verrà ripristinata è se "
+"il componente aggiuntivo è attivato o disattivato."
+
+#: packages/customize_editing_interface/src/Concrete/Help/HelpServiceProvider.php:11
+#: packages/customize_editing_interface/src/Concrete/Help/HelpServiceProvider.php:12
+#: packages/customize_editing_interface/src/Concrete/Help/HelpServiceProvider.php:13
+msgid "Give me the deluxe introduction tour"
+msgstr "Avvia il tour introduttivo"
