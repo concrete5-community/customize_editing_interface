@@ -1,7 +1,7 @@
 <?php
 namespace Concrete\Package\CustomizeEditingInterface\Controller\SinglePage\Dashboard\System\Basics;
 
-use \Concrete\Core\Page\Controller\DashboardPageController;
+use Concrete\Core\Page\Controller\DashboardPageController;
 use Config;
 
 class CustomizeEditingInterface extends DashboardPageController
@@ -154,15 +154,17 @@ class CustomizeEditingInterface extends DashboardPageController
                             Config::save($configKey, $this->post($subKey));
                         }
                     }
-
                 }
 
                 // when done, redirect the page
                 $this->redirect('/dashboard/system/basics/customize_editing_interface','settings_saved');
             }
         } else {
-            // if the token doesn't validate, the error message is set with an array of validation error messages
-            $this->set('error', array($this->token->getErrorMessage()));
+            // if the token doesn't validate, display an error message
+            $this->error->add(t('Invalid CSRF token. Please refresh and try again.'));
+            // call the view() method
+            // - this will read the config values and set the form values
+            $this->view();
         }
     }
 
@@ -198,9 +200,11 @@ class CustomizeEditingInterface extends DashboardPageController
             // when done, redirect the page
             $this->redirect('/dashboard/system/basics/customize_editing_interface','settings_reset');
         } else {
-            // if the token doesn't validate, the error message is set with an array of validation error messages
-            $this->set('error', array($this->token->getErrorMessage()));
+            // if the token doesn't validate, display an error message
+            $this->error->add(t('Invalid CSRF token. Please refresh and try again.'));
+            // call the view() method
+            // - this will read the config values and set the form values
+            $this->view();
         }
     }
-
 }

@@ -1,12 +1,11 @@
 <?php
 namespace Concrete\Package\CustomizeEditingInterface\Controller\SinglePage\Dashboard\System\Basics\CustomizeEditingInterface;
 
-use \Concrete\Core\Page\Controller\DashboardPageController;
+use Concrete\Core\Page\Controller\DashboardPageController;
 use Config;
 
 class ImportSettings extends DashboardPageController
 {
-
     public function import_file()
     {
         // this validates the hash - a specific time, user, and action
@@ -75,8 +74,8 @@ class ImportSettings extends DashboardPageController
             }
 
         } else {
-            // if the token doesn't validate, the error message is set with an array of validation error messages
-            $this->set('error', array($this->token->getErrorMessage()));
+            // if the token doesn't validate, display an error message
+            $this->error->add(t('Invalid CSRF token. Please refresh and try again.'));
         }
     }
 
@@ -157,5 +156,4 @@ class ImportSettings extends DashboardPageController
             $this->error->add(t('Error: the settings file must be a .csv file'));
         }
     }
-
 }

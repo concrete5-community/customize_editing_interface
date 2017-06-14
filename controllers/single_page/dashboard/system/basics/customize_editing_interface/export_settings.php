@@ -1,13 +1,12 @@
 <?php
 namespace Concrete\Package\CustomizeEditingInterface\Controller\SinglePage\Dashboard\System\Basics\CustomizeEditingInterface;
 
-use \Concrete\Core\Page\Controller\DashboardPageController;
-use Config;
+use Concrete\Core\Page\Controller\DashboardPageController;
 use Concrete\Package\CustomizeEditingInterface\Controller\SinglePage\Dashboard\System\Basics\CustomizeEditingInterface;
+use Config;
 
 class ExportSettings extends DashboardPageController
 {
-
     public function export()
     {
         // this validates the hash - a specific time, user, and action
@@ -62,9 +61,8 @@ class ExportSettings extends DashboardPageController
             // end the script
             exit();
         } else {
-            // if the token doesn't validate, the error message is set with an array of validation error messages
-            $this->set('error', array($this->token->getErrorMessage()));
+            // if the token doesn't validate, display an error message
+            $this->error->add(t('Invalid CSRF token. Please refresh and try again.'));
         }
     }
-
 }
