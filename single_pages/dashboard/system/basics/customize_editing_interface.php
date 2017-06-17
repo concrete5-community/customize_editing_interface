@@ -174,7 +174,7 @@ Example:
     <!-- <input type="hidden" name="ccm_token" value="1472786110:c69ce9d1f40b937c509fc0fff790a78a"> -->
 
     <!-- Custom Settings -->
-    <label><?php echo t('Custom Settings'); ?></label>
+    <label class="control-label"><?php echo t('Custom Settings'); ?></label>
     <br>
     <div class="btn-group" data-toggle="buttons">
         <label class="customSettingsOn btn btn-default <?php if ($customSettings) { echo 'active'; } ?>">
@@ -271,7 +271,7 @@ Example:
                 <!-- OUTLINE OPTIONS -->
 
                 <!-- Block Outline Style -->
-                <label><?php echo t('Block Outline Style'); ?></label>
+                <label class="control-label"><?php echo t('Block Outline Style'); ?></label>
                 <br>
                 <div class="btn-group block-outline-style" data-toggle="buttons">
                     <label class="btn btn-default <?php if ($blockOutlineStyle == 'dashed') { echo 'active'; } ?>">
@@ -288,7 +288,7 @@ Example:
                 <br>
 
                 <!-- Area Outline Style -->
-                <label><?php echo t('Area Outline Style'); ?></label>
+                <label class="control-label"><?php echo t('Area Outline Style'); ?></label>
                 <br>
                 <div class="btn-group area-outline-style" data-toggle="buttons">
                     <label class="btn btn-default <?php if ($areaOutlineStyle == 'dashed') { echo 'active'; } ?>">
@@ -305,7 +305,7 @@ Example:
                 <br>
 
                 <!-- Block Outline Width -->
-                <label><?php echo t('Block Outline Width'); ?></label>
+                <label class="control-label"><?php echo t('Block Outline Width'); ?></label>
                 <br>
                 <div class="btn-group block-outline-width" data-toggle="buttons">
                     <label class="btn btn-default <?php if ($blockOutlineWidth == '1px' || $blockOutlineWidth == null) { echo 'active'; } ?>">
@@ -325,7 +325,7 @@ Example:
                 <br>
 
                 <!-- Area Outline Width -->
-                <label><?php echo t('Area Outline Width'); ?></label>
+                <label class="control-label"><?php echo t('Area Outline Width'); ?></label>
                 <br>
                 <div class="btn-group area-outline-width" data-toggle="buttons">
                     <label class="btn btn-default <?php if ($areaOutlineWidth == '1px' || $areaOutlineWidth == null) { echo 'active'; } ?>">
