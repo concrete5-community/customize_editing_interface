@@ -232,32 +232,62 @@ Example:
  -->
                     <!-- Always Show Area Names -->
                     <div class="form-group">
-                        <?php echo $form->checkbox('showAreaNames', 1, $showAreaNames); ?>
-                        <?php echo $form->label('showAreaNames', t('Always show area names while in edit mode')); ?>
+                        <div class="checkbox">
+                            <label>
+                            <?php
+                            echo $form->checkbox('showAreaNames', 1, $showAreaNames);
+                            echo t('Always show area names while in edit mode');
+                            ?>
+                            </label>
+                        </div>
                     </div>
 
                     <!-- Always Show Block Outlines -->
                     <div class="form-group">
-                        <?php echo $form->checkbox('showBlockOutlines', 1, $showBlockOutlines); ?>
-                        <?php echo $form->label('showBlockOutlines', t('Always show block outlines while in edit mode')); ?>
+                        <div class="checkbox">
+                            <label>
+                            <?php
+                            echo $form->checkbox('showBlockOutlines', 1, $showBlockOutlines);
+                            echo t('Always show block outlines while in edit mode');
+                            ?>
+                            </label>
+                        </div>
                     </div>
 
                     <!-- Always Show Area Outlines -->
                     <div class="form-group">
-                        <?php echo $form->checkbox('showAreaOutlines', 1, $showAreaOutlines); ?>
-                        <?php echo $form->label('showAreaOutlines', t('Always show area outlines while in edit mode')); ?>
+                        <div class="checkbox">
+                            <label>
+                            <?php
+                            echo $form->checkbox('showAreaOutlines', 1, $showAreaOutlines);
+                            echo t('Always show area outlines while in edit mode');
+                            ?>
+                            </label>
+                        </div>
                     </div>
 
                     <!-- Show Block and Empty Area Background Hover Color -->
                     <div class="form-group">
-                        <?php echo $form->checkbox('showBlockBackgroundHoverColor', 1, $showBlockBackgroundHoverColor); ?>
-                        <?php echo $form->label('showBlockBackgroundHoverColor', t('Show block and empty area background hover color')); ?>
+                        <div class="checkbox">
+                            <label>
+                            <?php
+                            echo $form->checkbox('showBlockBackgroundHoverColor', 1, $showBlockBackgroundHoverColor);
+                            echo t('Show block and empty area background hover color');
+                            ?>
+                            </label>
+                        </div>
                     </div>
 
                     <!-- WCAG 2.0 Compliant Color Contrast -->
                     <div class="form-group">
-                        <?php echo $form->checkbox('wcag2Compliant', 1, $wcag2Compliant); ?>
-                        <?php echo $form->label('wcag2Compliant', t('WCAG 2.0 compliant color contrast')); ?>
+                        <div class="checkbox">
+                            <label>
+                            <?php
+                            echo $form->checkbox('wcag2Compliant', 1, $wcag2Compliant);
+                            echo t('WCAG 2.0 compliant color contrast');
+                            ?>
+                            </label>
+                        </div>
                     </div>
 
                 </div>
