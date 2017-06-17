@@ -45,7 +45,7 @@ Example:
 </form>
 <br>
 
-<div class="well">
+<div class="alert alert-info">
     <?php echo t('A copy of the current settings will be exported as a downloadable .csv file. This file can be imported to restore settings at a later time.'); ?>
 </div>
 

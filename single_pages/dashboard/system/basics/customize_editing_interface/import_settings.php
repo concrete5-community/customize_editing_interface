@@ -66,7 +66,7 @@ enctype attribute values:
 
 </form>
 
-<div class="well">
+<div class="alert alert-info">
     <?php echo t('Restore exported settings by uploading the settings file that was created by this add-on. The exported settings file will have a filename of customize_editing_interface_settings_MM-DD-YYYY.csv.'); ?>
 </div>
 
