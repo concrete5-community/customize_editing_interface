@@ -1,11 +1,11 @@
 <?php
 namespace Concrete\Package\CustomizeEditingInterface;
 
-use SinglePage;
-use Events;
-use Core;
 use Config;
-use \Concrete\Package\CustomizeEditingInterface\StyleOverride;
+use Core;
+use Concrete\Package\CustomizeEditingInterface\StyleOverride;
+use Events;
+use SinglePage;
 // when using "protected $pkgAutoloaderMapCoreExtensions = true;"
 // - this maps anything within the \Concrete\Package\PackageName\Src namespace to src\Concrete
 // - "Src" is removed from the namespace
@@ -14,11 +14,10 @@ use \Concrete\Package\CustomizeEditingInterface\StyleOverride;
 //
 // this is the default namespace and path:
 // namespace Concrete\Package\CustomizeEditingInterface\Src;
-// use \Concrete\Package\CustomizeEditingInterface\Src\StyleOverride;
+// use Concrete\Package\CustomizeEditingInterface\Src\StyleOverride;
 
 class Controller extends \Concrete\Core\Package\Package
 {
-
     protected $pkgHandle = 'customize_editing_interface';
     protected $appVersionRequired = '5.7.5.2';
     protected $pkgVersion = '0.9.4';
@@ -26,14 +25,14 @@ class Controller extends \Concrete\Core\Package\Package
     // - maps src to src\Concrete
     protected $pkgAutoloaderMapCoreExtensions = true;
 
-    public function getPackageDescription()
-    {
-        return t('Customize the concrete5 editing interface.');
-    }
-
     public function getPackageName()
     {
         return t('Customize Editing Interface');
+    }
+
+    public function getPackageDescription()
+    {
+        return t('Customize the concrete5 editing interface.');
     }
 
     public function install()
@@ -88,5 +87,4 @@ class Controller extends \Concrete\Core\Package\Package
             }
         }
     }
-
 }
