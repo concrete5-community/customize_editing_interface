@@ -20,7 +20,7 @@ class Controller extends \Concrete\Core\Package\Package
 {
     protected $pkgHandle = 'customize_editing_interface';
     protected $appVersionRequired = '5.7.5.2';
-    protected $pkgVersion = '0.9.4';
+    protected $pkgVersion = '1.0';
     // - required to use HelpServiceProvider
     // - maps src to src\Concrete
     protected $pkgAutoloaderMapCoreExtensions = true;
