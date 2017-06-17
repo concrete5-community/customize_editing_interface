@@ -10,10 +10,10 @@ namespace Concrete\Package\CustomizeEditingInterface;
 // namespace Concrete\Package\CustomizeEditingInterface\Src;
 // packages\customize_editing_interface\src\StyleOverride.php
 
+use Concrete\Package\CustomizeEditingInterface\Controller\SinglePage\Dashboard\System\Basics\CustomizeEditingInterface;
+use Config;
 use Page;
 use View;
-use Config;
-use Concrete\Package\CustomizeEditingInterface\Controller\SinglePage\Dashboard\System\Basics\CustomizeEditingInterface;
 
 class StyleOverride
 {
@@ -915,6 +915,169 @@ EOD;
         CSS:*/
         div#ccm-panel-add-block-stack-list>div.ccm-panel-add-block-stack-item div.blocks>div.block>div.block-name {
             color: #A2A7C8;
+        }
+
+
+        /*v8.2*/
+
+        /*center the checkin (save/publish/schedule)*/
+        div#ccm-panel-check-in form#ccm-check-in {
+            /* width: auto; */
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        /*help blocks*/
+        .ccm-ui .help-block {
+            color: #545454;
+        }
+
+        /*schedule page timezone text*/
+        #ccm-check-in-schedule-wrapper .help-block {
+            color: #929292;
+        }
+
+        /*page settings > attributes > Page ID*/
+        div#ccm-panel-detail-page-attributes div.ccm-panel-detail-content span.ccm-detail-page-attributes-id {
+            color: #525252;
+        }
+
+        /*page settings > versions > info icon*/
+        #ccm-panel-page #ccm-panel-page-versions table td a {
+            color: #B9C4E1;
+        }
+
+        /*search results header*/
+        table.ccm-search-results-table thead th a {
+            color: #666666;
+        }
+        table.ccm-search-results-table thead th {
+            color: #666666;
+        }
+        table.ccm-search-results-table thead th.ccm-results-list-active-sort-desc a, table.ccm-search-results-table thead th.ccm-results-list-active-sort-asc a {
+            color: #000;
+        }
+
+        /*search results text*/
+        table.ccm-search-results-table tbody td {
+            color: #525252;
+        }
+
+        /*advanced search text*/
+        div.ccm-header-search-form form a.ccm-header-launch-advanced-search {
+            color: #4F4F4F;
+        }
+
+        /*search navigation text*/
+        ul.ccm-header-search-navigation a {
+            color: #666666;
+        }
+        ul.ccm-header-search-navigation a:focus, ul.ccm-header-search-navigation a:hover {
+            color: #000;
+        }
+
+        /*fancy tree*/
+        span.fancytree-title {
+            color: #4D4D4D;
+        }
+
+        /*tab text*/
+        div.ccm-ui ul.nav-tabs>li>a {
+            color: #575757;
+        }
+
+        /*welcome date*/
+        .ccm-ui nav.ccm-dashboard-desktop-navbar.navbar p.navbar-text {
+            color: #9BBED4 !important;
+        }
+
+        /*welcome nav bar text*/
+        .ccm-ui .navbar-default form .navbar-nav>li>a {
+            color: #B6B6B6;
+        }
+
+        /*welcome - latest text*/
+        div#ccm-block-desktop-site-activity-legend h6 {
+            color: #545454;
+        }
+
+        /*welcome - featured theme text*/
+        div.ccm-block-desktop-featured-theme h6 {
+            color: #575757;
+        }
+
+        /*welcome - tutorials/news from concrete5.org text*/
+        body.ccm-dashboard-desktop div.ccm-block-rss-displayer-wrapper div.ccm-block-rss-displayer h5 {
+            color: #575757;
+        }
+
+        /*welcome - news from concrete5.org date*/
+        .ccm-block-rss-displayer-item-date {
+            color: #575757;
+        }
+
+        /*welcome - featured add-on text*/
+        div.ccm-block-desktop-featured-addon div.ccm-block-desktop-featured-addon-inner h6 {
+            color: #575757;
+        }
+
+        /*welcome - marketplace deal of the day text*/
+        body.ccm-dashboard-desktop div.ccm-block-dashboard-newsflow-latest-wrapper div.ccm-block-dashboard-newsflow-latest h6 {
+            color: #575757;
+        }
+
+        /*welcome - latest form name/date*/
+        div.ccm-block-desktop-latest-form {
+            color: #fff;
+        }
+
+        /*welcome text*/
+        div.ccm-dashboard-desktop-flex .row,
+        div.ccm-dashboard-desktop-flex .row>div[class*='col-'] {
+            color: #575757;
+        }
+
+        /*dashboard side panel text*/
+        div#ccm-panel-dashboard menu li a, div#ccm-panel-dashboard ul.nav li a {
+            color: #395E88;
+        }
+        div#ccm-panel-dashboard menu li.nav-selected>a,
+        div#ccm-panel-dashboard ul.nav li.nav-selected>a {
+            color: #000000;
+        }
+
+        /*dashboard link color*/
+        .ccm-ui a {
+            color: #3889C0;
+        }
+        .ccm-ui a:hover, .ccm-ui a:focus {
+            color: #1e608c;
+        }
+
+        /*search results breadcrumb*/
+        div.ccm-search-results-breadcrumb ol.breadcrumb>li a {
+            color: #6E6E6E;
+        }
+        div.ccm-search-results-breadcrumb ol.breadcrumb>li>a:hover,
+        div.ccm-search-results-breadcrumb ol.breadcrumb>li>a:focus {
+            color: #000;
+        }
+        .ccm-ui .breadcrumb>.active {
+            color: #6E6E6E;
+        }
+
+        /*stack/area navbar text*/
+        .ccm-ui .navbar-default .navbar-nav>li>a {
+            color: #6E6E6E;
+        }
+        .ccm-ui .navbar-default .navbar-nav>li>a:hover,
+        .ccm-ui .navbar-default .navbar-nav>li>a:focus {
+            color: #000000;
+        }
+
+        /*search fields*/
+        div.ccm-search-fields-row div.form-group label.control-label {
+            color: #575757;
         }
 EOD;
         /*END WCAG 2.0 contrast accessible text and controls*/
