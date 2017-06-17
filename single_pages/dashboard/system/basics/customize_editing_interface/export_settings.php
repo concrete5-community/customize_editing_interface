@@ -43,7 +43,6 @@ Example:
         <button class="btn btn-primary" type="submit" name="action" value="export"><?php echo t('Export Settings'); ?></button>
     </div>
 </form>
-<br>
 
 <div class="alert alert-info">
     <?php echo t('A copy of the current settings will be exported as a downloadable .csv file. This file can be imported to restore settings at a later time.'); ?>
