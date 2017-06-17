@@ -67,7 +67,7 @@ class CustomizeEditingInterface extends DashboardPageController
     );
 
     // this is used to get the static $configSubKeyList property
-    public function getConfigSubKeyList()
+    public static function getConfigSubKeyList()
     {
         return self::$configSubKeyList;
     }
