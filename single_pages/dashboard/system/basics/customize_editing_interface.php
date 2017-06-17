@@ -15,7 +15,7 @@ View::getInstance()->requireAsset('javascript', 'bootstrap/button');
 
 <style>
 /*70px is the minimum width to contain the full width of the color pickers*/
-.ccm-ui .table.bs-table-style-override tbody tr td {
+.ccm-ui .table.bs-table-style-override tbody tr td:last-child {
     width: 70px;
 }
 .ccm-ui .table > tbody > tr:first-child th {
@@ -386,7 +386,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Block Outline Color - Area -->
-                                    <th><?php echo t('Outline Color'); ?></th>
+                                    <td><?php echo t('Outline Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -396,7 +396,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Block Outline Hover Color - Area -->
-                                    <th><?php echo t('Outline Hover and Selected Color'); ?></th>
+                                    <td><?php echo t('Outline Hover and Selected Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -417,7 +417,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Block Outline Color - Global -->
-                                    <th><?php echo t('Outline Color'); ?></th>
+                                    <td><?php echo t('Outline Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -427,7 +427,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Block Outline Hover Color Global -->
-                                    <th><?php echo t('Outline Hover and Selected Color'); ?></th>
+                                    <td><?php echo t('Outline Hover and Selected Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -448,7 +448,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Area Outline Color -->
-                                    <th><?php echo t('Outline Color'); ?></th>
+                                    <td><?php echo t('Outline Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -458,7 +458,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Drag Area Indicator Color -->
-                                    <th><?php echo t('Drag Indicator Color'); ?></th>
+                                    <td><?php echo t('Drag Indicator Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -479,7 +479,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Global Area Outline Color -->
-                                    <th><?php echo t('Outline Color'); ?></th>
+                                    <td><?php echo t('Outline Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -489,7 +489,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Drag Global Area Indicator Color -->
-                                    <th><?php echo t('Drag Indicator Color'); ?></th>
+                                    <td><?php echo t('Drag Indicator Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -510,7 +510,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Empty Area Outline Color -->
-                                    <th><?php echo t('Outline Color'); ?></th>
+                                    <td><?php echo t('Outline Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -520,7 +520,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Empty Area Outline Hover Color -->
-                                    <th><?php echo t('Outline Hover and Selected Color'); ?></th>
+                                    <td><?php echo t('Outline Hover and Selected Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -541,7 +541,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Empty Global Area Outline Color -->
-                                    <th><?php echo t('Outline Color'); ?></th>
+                                    <td><?php echo t('Outline Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -551,7 +551,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Empty Global Area Outline Hover Color -->
-                                    <th><?php echo t('Outline Hover and Selected Color'); ?></th>
+                                    <td><?php echo t('Outline Hover and Selected Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -580,7 +580,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Block Background Hover Color -->
-                                    <th><?php echo t('Background Hover Color'); ?></th>
+                                    <td><?php echo t('Background Hover Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -590,7 +590,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Selected Block Background Hover Color -->
-                                    <th><?php echo t('Selected Background Color'); ?></th>
+                                    <td><?php echo t('Selected Background Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -611,7 +611,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Block Background Hover Color Global -->
-                                    <th><?php echo t('Background Hover Color'); ?></th>
+                                    <td><?php echo t('Background Hover Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -621,7 +621,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Selected Block Background Color Global -->
-                                    <th><?php echo t('Selected Background Color'); ?></th>
+                                    <td><?php echo t('Selected Background Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -642,7 +642,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Block Background Hover Color Empty -->
-                                    <th><?php echo t('Background Hover Color'); ?></th>
+                                    <td><?php echo t('Background Hover Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -652,7 +652,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Empty Area Background Color -->
-                                    <th><?php echo t('Selected Background Color'); ?></th>
+                                    <td><?php echo t('Selected Background Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -673,7 +673,7 @@ Example:
                             <tbody>
                                 <tr>
                                     <!-- Block Background Hover Color Empty Global -->
-                                    <th><?php echo t('Background Hover Color'); ?></th>
+                                    <td><?php echo t('Background Hover Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
@@ -683,7 +683,7 @@ Example:
                                 </tr>
                                 <tr>
                                     <!-- Empty Global Area Background Color -->
-                                    <th><?php echo t('Selected Background Color'); ?></th>
+                                    <td><?php echo t('Selected Background Color'); ?></td>
                                     <td>
                                         <?php
                                         $color = Core::make('helper/form/color');
