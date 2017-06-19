@@ -82,6 +82,14 @@ class StyleOverride
         /*1 BLOCK ICON PER ROW*/
 
         /**
+         * Center the checkin (save/publish/schedule)
+         */
+        div#ccm-panel-check-in form#ccm-check-in {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+
+        /**
          * Blocks Label and Block Clipboard Stacks drop down
          */
 
@@ -152,9 +160,27 @@ class StyleOverride
             height: 38px;
         }
 EOD;
+        $twoRows = <<<EOD
+        /*DEFAULT - 2 BLOCK ICONS PER ROW*/
 
+        /**
+         * Center the checkin (save/publish/schedule)
+         */
+        div#ccm-panel-check-in form#ccm-check-in {
+            margin-left: 0;
+            margin-right: 0;
+        }
+EOD;
         $threeRows = <<<EOD
         /*3 BLOCK ICONS PER ROW*/
+
+        /**
+         * Center the checkin (save/publish/schedule)
+         */
+        div#ccm-panel-check-in form#ccm-check-in {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
 
         /**
          * Blocks Label and Block Clipboard Stacks drop down
@@ -206,6 +232,14 @@ EOD;
 
         $fourRows = <<<EOD
         /*4 BLOCK ICONS PER ROW*/
+
+        /**
+         * Center the checkin (save/publish/schedule)
+         */
+        div#ccm-panel-check-in form#ccm-check-in {
+            margin-left: 30px;
+            margin-right: 30px;
+        }
 
         /**
         * Blocks Label and Block Clipboard Stacks drop down
@@ -524,6 +558,9 @@ EOD;
             switch ($iconsPerRow) {
                 case 1:
                     $v->addFooterItem("<style>$oneRow</style>");
+                    break;
+                case 2:
+                    $v->addFooterItem("<style>$twoRows</style>");
                     break;
                 case 3:
                     $v->addFooterItem("<style>$threeRows</style>");
@@ -919,13 +956,6 @@ EOD;
 
 
         /*v8.2*/
-
-        /*center the checkin (save/publish/schedule)*/
-        div#ccm-panel-check-in form#ccm-check-in {
-            /* width: auto; */
-            margin-left: 30px;
-            margin-right: 30px;
-        }
 
         /*help blocks*/
         .ccm-ui .help-block {
