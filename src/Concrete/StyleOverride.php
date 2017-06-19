@@ -150,7 +150,9 @@ class StyleOverride
             width: 239px;
             height: 100%;
             font-size: 15px;
-            line-height: 15px;
+            line-height: 38px;
+            padding-top: 0;
+            padding-bottom: 0;
             border-top-right-radius: 4px;
             border-bottom-left-radius: 0px;
         }
